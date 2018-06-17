@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>songs</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family-Tangerine">
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script
+  		src="https://code.jquery.com/jquery-3.3.1.js">
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$('.toggle').click(function()
+			{
+				$('ul').slideToggle(500);
+			})
+		})
+</script>
+</head>
+<body>
+	<section>
+	<header>
+		<a href="#" class="logo"><img src="img/logo.jpg" width="100px;" height="80px;"></a>
+		<a class="toggle">Menu</a>
+		<ul class="active">
+			<li><a href="index.html" class="active">Home</a></li>
+			<li><a href="songs.html">Songs</a></li>
+			
+			<li><a href="live.html">Live streaming</a></li>
+			<li><a href="about.html">About us</a></li>
+			<li><a href="login.html">Login</a></li>
+		</ul>
+	</header>
+	<!--<div id="header"> choose a playlist</div-->
+	<div id="wrapper">
+		<div class="box-effect1">
+			<a href="bollywood.php"><img src="img/4.jpg" height="200px" width="200px" alt="list images"/></a>
+			<div class="text">Bollywood</div>
+		</div>
+		<div  class="box-effect2">
+			<a href="hollywood.php"><img src="img/pp.jpg" width="200px" height="200px" alt="list images"/>
+			<div class="text">Hollywood</div>
+		</div>
+		<div  class="box-effect3">
+			<a href="tollywood.php"><img src="img/telu.jpg" width="200px" height="200px" alt="list images"/></a>
+			<div class="text">Tollywood</div>
+		</div>
+	</div>
+	<div id="wrapper2">
+		<div class="box-effect1">
+			<a href="panjabi.php"><img src="img/pan.jpg" height="200px" width="200px" alt="list images"/></a>
+			<div class="text">Panjab</div>
+		</div>
+		<div  class="box-effect2">
+			<a href="tamil.php"><img src="img/tamil.jpg" width="200px" height="200px" alt="list images"/></a>
+			<div class="text">Tamil</div>
+		</div>
+		<div  class="box-effect3">
+			<a href="french.php"><img src="img/1.jpg" width="200px" height="200px" alt="list images"/></a>
+			<div class="text">French</div>
+		</div>
+	</div>
+	</div>
+</section>	
+</body>
+</html>
