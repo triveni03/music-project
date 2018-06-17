@@ -42,7 +42,7 @@ include("auth.php");
   <option value="Tollywoodsongs">Tollywoodsongs</option>
    <option value="Tamilsongs">Tamil Songs</option>
   <option value="Hollywoodsongs">HollywoodSongs</option>
-  <option value="FrenchSongs">Frenchsongs</option>
+  <option value="Frenchsongs">Frenchsongs</option>
 </select>
 <br></br>  
 <input type="number" name="id"><br></br>
